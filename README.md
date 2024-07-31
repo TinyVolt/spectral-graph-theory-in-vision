@@ -11,27 +11,33 @@ Consider the adjacency matrix shown below:
 
 Consider the adjacency matrix shown below with non-negative entries:
 
-$ \begin{bmatrix}
+```math
+ \begin{bmatrix}
 p & q & r \\
 q & s & t \\
 r & t & u 
-\end{bmatrix}  $
+\end{bmatrix}  
+```
 
 Then the Laplacian matrix is
 
-$ L = \begin{bmatrix}
+```math
+L = \begin{bmatrix}
 q+r & -q & -r \\
 -q & q+t & -t \\
 -r & -t & r+t 
-\end{bmatrix}  $
+\end{bmatrix}
+```
 
 Now consider the bilinear form $vTLv$ where $v^T = [x,y,z] $:
 
-$ v^TLv = \begin{bmatrix} x & y & z \end{bmatrix} \begin{bmatrix}
+```math
+v^TLv = \begin{bmatrix} x & y & z \end{bmatrix} \begin{bmatrix}
 q+r & -q & -r \\
 -q & q+t & -t \\
 -r & -t & r+t 
-\end{bmatrix} \begin{bmatrix} x \\ y \\ z \end{bmatrix} = q(x-y)^2 + r(x-z)^2 + t(y-z)^2  $
+\end{bmatrix} \begin{bmatrix} x \\ y \\ z \end{bmatrix} = q(x-y)^2 + r(x-z)^2 + t(y-z)^2
+```
 
 Since the Laplacian is symmetric positive semi-definite, all eigenvalues are non-negative.
 
