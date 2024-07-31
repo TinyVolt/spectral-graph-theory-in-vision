@@ -4,6 +4,7 @@ Repo for the sharing on applications of spectral graph theory in computer vision
 ## Notes
 - [A primer on Spectral Graph Theory](https://hackmd.io/@vinsis/B1V4tkX_s)
 - [Algebriac Connectivity](https://en.wikipedia.org/wiki/Algebraic_connectivity)
+- [EAGLE](https://micv-yonsei.github.io/eagle2024/)
 
 ## A hand-wavy explanation of algebriac connectivity and Laplacian eigenvalues
 
